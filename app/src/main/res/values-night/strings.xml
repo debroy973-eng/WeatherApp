@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="update_for_the_next_24_hours">Update for the next 24 hours:</string>
+    <string name="update_for_the_next_5_days">Update for the next 5 days:</string>
+    <string name="enable">Enable</string>
+    <string name="internet_enable_message">Please enable mobile data to use this app</string>
+</resources>

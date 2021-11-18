@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginBottom="@dimen/list_item_padding"
+    xmlns:tools="http://schemas.android.com/tools">
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+        <TextView
+            android:id="@+id/temperature_list_item_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textSize="@dimen/tempareture_textview"
+            android:textStyle="bold"
+            tools:text="38\u2103" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/image_list_view" />
+    </RelativeLayout>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="@dimen/list_item_description"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:layout_gravity="clip_vertical"
+            android:id="@+id/description_list_item_textview"
+            tools:text="Haze"/>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="24th sep,2020"
+                android:id="@+id/date_list_item_textview"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="9:00pm"
+                android:id="@+id/time_list_item_textview"/>
+        </LinearLayout>
+</LinearLayout>
